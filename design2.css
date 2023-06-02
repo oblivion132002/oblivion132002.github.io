@@ -1,0 +1,202 @@
+header {
+    background-color: #252020;
+    color: #fdfdfd;
+    padding: 20px;
+    text-align: center;
+    font-family: WOB;
+    font-size: 30px;
+  }
+
+  nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  nav ul {
+    display: inline-block;
+    margin: inline-block;
+    margin: 0 25px;
+    padding: relative
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #393939;
+  }
+
+  body{
+    background-image: url("design2BG.jpg");
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    align-content: end;
+  }
+
+  @font-face {
+    font-family: WOB;
+    src: url(WOB.ttf);
+  }
+
+  main {
+    margin: 100px;
+    width: relative;
+    align-content: center;
+  }
+
+  img {
+    float: left;
+    width: 45%; 
+    padding: 5px;
+  }
+
+
+
+
+
+  div.gallery {
+    border: 1px solid #fb0000;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #f8d303;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #div1 {
+    width: 800px;
+    height: 200px;
+    padding: 0% 0% 0% 0%;
+    color: #fdfdfd;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 6s infinite;
+  }
+  #div2 {
+    width: 800px;
+    height: 80px;
+    color: #fdfdfd;
+    padding: 0% 0% 0% 0%;
+    font-weight: bold;
+    position: relative;
+    animation: mymove2 10s infinite;
+  }
+  #div3 {
+    width: 800px;
+    height: 100px;
+    color: #fdfdfd;
+    padding: 0% 0% 0% 0%;
+    font-weight: bold;
+    position: relative;
+    animation: mymove3 11s infinite;
+  }
+  #div4 {
+    width: 1000px;
+    height: 130px;
+    color: #fdfdfd;
+    padding-bottom: 0%;
+    font-weight: bold;
+    position: relative;
+    animation: mymove4 7s infinite;
+  }
+
+  #div1 {animation-timing-function: ease;}
+  #div2 {animation-timing-function: linear;}
+  #div3 {animation-timing-function: ease-in;}
+  #div4 {animation-timing-function: ease-out;}
+
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 1600px;}
+  }
+  @keyframes mymove2 {
+    from {left: -10px;}
+    to {left: 1100px;}
+  }
+  @keyframes mymove3 {
+    from {left: 0px;}
+    to {left: 1500px;}
+  }
+  @keyframes mymove4 {
+    from {left: 0px;}
+    to {left: 1600px;}
+  }
+
+  h2{
+    background-color: #252020;
+    color: #fdfdfd;
+    padding: 20px;
+    text-align: center;
+    font-family: WOB;
+    font-size: 30px;
+  }
+
+  p {
+    background-color: rgb(84, 84, 84);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: left;
+    text-indent: 0%;
+    padding-left: 50%;
+
+  }
